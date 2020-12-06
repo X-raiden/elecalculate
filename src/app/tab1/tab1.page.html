@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-item color="dark">
+      <ion-avatar slot="end">
+        <img src="https://i.pinimg.com/736x/ae/30/d1/ae30d1ffa3a1dac4c7b08955c481f619.jpg">
+      </ion-avatar>
+      <ion-label class="ion-text-start">
+        <p>Errkhis</p>
+        <p>43234234</p>
+      </ion-label>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <div class="ion-text-center">
+      <ion-card color="dark">
+        <ion-card-header>
+          <ion-card-subtitle>You Consummed</ion-card-subtitle>
+          <ion-card-title>345 KWh</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          you know how we calculate your consumption.
+        </ion-card-content>
+      </ion-card>
+      
+    </div>
+    <div class="content">
+      <ion-item color="dark">
+        <ion-icon name="cash" slot="start" size="small"></ion-icon>
+        Current Month
+        <p slot="end">140 DHs</p>
+      </ion-item>
+      <ion-item color="dark">
+        <ion-icon name="cash" slot="start" size="small"></ion-icon>
+        Last Month
+        <p slot="end">200 DHs</p>
+      </ion-item>
+    </div>
+  </div>
+  <div class="content">
+    <canvas id="barCanvas"></canvas>
+  </div>
+</ion-content>

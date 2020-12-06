@@ -1,0 +1,20 @@
+<ion-content>
+  <div id="container">
+  <div class="ion-text-center" id="header">
+    <img src="../../assets/information_carousel.png" width="70%" >
+    <p>IoT project for ENSAK</p>
+  </div>
+  <div id="form">
+      <ion-input [(ngModel)]="email" required="true" type="email" placeholder="email">
+        <ion-icon name="person"></ion-icon>
+      </ion-input>
+      <ion-input [(ngModel)]="password" type="password" required="true" placeholder="password">
+        <ion-icon name="lock-closed"></ion-icon>
+      </ion-input>
+  </div>
+  <div>
+    <ion-button expand="block" (click)="login()">Login</ion-button>
+    <p>It is just an academic project</p>
+  </div>
+</div>
+</ion-content>
