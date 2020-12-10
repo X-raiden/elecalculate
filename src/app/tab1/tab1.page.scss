@@ -1,12 +1,14 @@
-ion-toolbar {
-    --background: #222428;
-}
-p{
-    color: white;
-}
-ion-content{
-    --background: black;
-}
+
 .content{
     padding: 10px;
+}
+
+#container {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }

@@ -1,17 +1,68 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Mes chambres
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div id="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card button="true">
+            <ion-card-header>
+              <ion-icon name="fast-food"></ion-icon>
+              <ion-card-title>cuisine</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card button="true">
+            <ion-card-header>
+              <ion-icon name="bed"></ion-icon>
+              <ion-card-title>cham.àc</ion-card-title>
+            </ion-card-header>
+          </ion-card>          
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-card button="true">
+            <ion-card-header>
+              <ion-icon name="tv"></ion-icon>
+              <ion-card-title>salon</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card button="true">
+            <ion-card-header>
+              <ion-icon name="water"></ion-icon>
+              <ion-card-title>toilet</ion-card-title>
+            </ion-card-header>
+          </ion-card>          
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-card button="true">
+            <ion-card-header>
+              <ion-icon name="barcode"></ion-icon>
+              <ion-card-title>garage</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card button="true">
+            <ion-card-header>
+              <ion-icon name="logo-firefox"></ion-icon>
+              <ion-card-title>jardin</ion-card-title>
+            </ion-card-header>
+          </ion-card>          
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
 </ion-content>

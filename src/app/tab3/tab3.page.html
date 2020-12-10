@@ -1,17 +1,51 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Informations personnelles
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div id="container">
+    <div class="image">
+      <ion-avatar slot="">
+        <img src="https://i.pinimg.com/736x/ae/30/d1/ae30d1ffa3a1dac4c7b08955c481f619.jpg">
+      </ion-avatar>
+    </div>
+    <div class="intems">
+      <ion-item>
+        <label slot="start">
+          Nom
+        </label>
+        <p slot="end">
+          Ayoub
+        </p>
+      </ion-item>
+      <ion-item>
+        <label slot="start">
+          Prénom
+        </label>
+        <p slot="end">
+          Er.rkhis
+        </p>
+      </ion-item>
+      <ion-item>
+        <label slot="start">
+          N° d'engagement
+        </label>
+        <p slot="end">
+          323424
+        </p>
+      </ion-item>
+      <ion-item>
+        <label slot="start">
+          Date d'engagement
+        </label>
+        <p slot="end">
+          23/10/2020
+        </p>
+      </ion-item>
+    </div>
+  </div>
 </ion-content>

@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-item color="dark">
+    <ion-item >
       <ion-avatar slot="end">
         <img src="https://i.pinimg.com/736x/ae/30/d1/ae30d1ffa3a1dac4c7b08955c481f619.jpg">
       </ion-avatar>
@@ -13,34 +13,34 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div>
+  <div id="container">
     <div class="ion-text-center">
-      <ion-card color="dark">
+      <ion-card>
         <ion-card-header>
-          <ion-card-subtitle>You Consummed</ion-card-subtitle>
+          <ion-card-subtitle>vous avez consommé</ion-card-subtitle>
           <ion-card-title>345 KWh</ion-card-title>
         </ion-card-header>
       
         <ion-card-content>
-          you know how we calculate your consumption.
+          vous savez comment calculer votre consommation ?
         </ion-card-content>
       </ion-card>
       
     </div>
     <div class="content">
-      <ion-item color="dark">
+      <ion-item >
         <ion-icon name="cash" slot="start" size="small"></ion-icon>
-        Current Month
+        Le mois actuel
         <p slot="end">140 DHs</p>
       </ion-item>
-      <ion-item color="dark">
+      <ion-item >
         <ion-icon name="cash" slot="start" size="small"></ion-icon>
-        Last Month
+        Le dernier mois
         <p slot="end">200 DHs</p>
       </ion-item>
     </div>
-  </div>
-  <div class="content">
-    <canvas id="barCanvas"></canvas>
+    <div class="content">
+      <canvas id="barCanvas"></canvas>
+    </div>
   </div>
 </ion-content>

@@ -14,7 +14,7 @@ export class Tab1Page {
     this.barChart = new Chart(document.getElementById("barCanvas"), {
       type: "bar",
       data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["Red", "Juillet", "Yellow", "Green", "Purple", "Orange"],
         datasets: [
           {
             label: "# of Votes",
